@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maze Tilt</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="hud">
+    <span>⏱ <span id="time">0.00</span>s</span>
+    <span>🏆 <span id="best">--</span></span>
+  </div>
+
+  <div id="game"></div>
+
+  <div id="overlay" class="hidden">
+    <div class="panel">
+      <h2>Finished!</h2>
+      <button id="restartBtn">Play Again</button>
+    </div>
+  </div>
+
+  <button id="startBtn">Start</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
